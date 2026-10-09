@@ -45,3 +45,9 @@
 - Keep [`docs/configuration.md`](./docs/configuration.md) exhaustive and current. When config keys, aliases, defaults, or precedence rules change, update the reference tables and the full example `plugins.entries.lossless-claw.config` block at the top of that file in the same change.
 - Keep [`skills/lossless-claw/references/config.md`](./skills/lossless-claw/references/config.md) consistent with [`docs/configuration.md`](./docs/configuration.md), [`openclaw.plugin.json`](./openclaw.plugin.json), and the runtime defaults in [`src/db/config.ts`](./src/db/config.ts). When config keys, aliases, defaults, or precedence rules change, update that bundled skill reference in the same change.
 - Add or update a regression test when changing config options so schema drift is caught before release.
+
+## Fork source and harness maintenance
+
+Read the [lossless-claw-source-dev skill](.agents/skills/lossless-claw-source-dev/SKILL.md) for source ownership,
+checks, outcome evidence and fork delivery. Keep general maintenance procedures
+with its shared owner and preserve this repository's operational boundaries.

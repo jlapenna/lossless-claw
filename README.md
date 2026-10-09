@@ -625,3 +625,10 @@ for the supported disclosure process and response expectations.
 ## License
 
 MIT
+
+## Fork repository maintenance
+
+Start at [AGENTS.md](AGENTS.md) and the
+[lossless-claw-source-dev skill](.agents/skills/lossless-claw-source-dev/SKILL.md) for fork source work and
+harness upkeep. Runtime operation and release procedures retain their
+existing scope and evidence requirements.
